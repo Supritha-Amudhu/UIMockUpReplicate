@@ -1,0 +1,98 @@
+#logo{
+	object-fit: contain;
+	height: 20px;
+	width: auto;
+}
+
+#menu-items{
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	margin-top: 20px;
+	object-fit: contain;
+	background-image: linear-gradient(to left, #41c0ff, #4697ff);
+}
+.background-clear-panel{
+	width: 1000px;
+	border: none;
+    transform: translateX(-50%) translateY(-50%);
+    background: none;
+    color: #3892f8;
+}
+
+#fashion-text{
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 120px 0px;
+    z-index: -1;
+}
+
+#model-image{ 
+	z-index: 1;
+	width: 610px;
+	height: 700px;
+	top: 50px;
+	left: 15%;
+	object-fit: contain;
+	position: absolute;
+}
+
+#highlight-bar {
+	z-index: 1;
+	width: 560px;
+	height: 15px;
+	object-fit: contain;
+	position: absolute;
+	background-color: #33ffbe;
+	left: 18%;
+	top: 80%;
+}
+
+#new-arrivals {
+	z-index: 1;
+	font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+	white-space: nowrap;
+	font-weight: bold;
+	position: absolute;
+	color: #ffffff;
+	text-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	top: 67%;
+	left: 25%;
+}
+
+#browse-button{
+	z-index: 1;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+    width: 220px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #336dff, #7963ff);
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#shapes{
+	object-fit: contain;
+	position: absolute;
+    top: 115%;
+    left: 52%;
+    background-size: 95% 70%;
+    background-image: url("images/shapes.png");
+    width: 1100px;
+    height: 60%;
+    background-repeat: no-repeat;
+}
+
+.panel{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
